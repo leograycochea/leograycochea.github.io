@@ -51,7 +51,7 @@ li a:hover:not(.active) {
 .active2 {
     background-color:white;
 	
-	height:48px;
+	height:43px;
 	width:50px;
 
 	background-image:URL("logo.png");
