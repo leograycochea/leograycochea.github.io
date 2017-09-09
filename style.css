@@ -180,6 +180,16 @@ color:#FF4D4D;
 text-align:center;
 margin-top:-10px;
 }
+
+.active2 {
+    background-color:white;
+	
+	height:45px;
+	width:50px;
+
+	background-image:URL("logo.png");
+	background-size:100% 100%;
+	}
 /* nav bar at 550*/
 ul {
     list-style-type: none;
