@@ -21,7 +21,7 @@ li a {
     text-decoration: none;
 	font-family: 'Orbitron', sans-serif;
 	/*font-family: 'Righteous', cursive;*/
-	/*font-family: 'Orbitron', sans-serif;*/
+/*font-family: 'Orbitron', sans-serif;*/
 }
 
 li a:hover:not(.active) {
@@ -180,16 +180,6 @@ color:#FF4D4D;
 text-align:center;
 margin-top:-10px;
 }
-
-.active2 {
-    background-color:white;
-	
-	height:45px;
-	width:50px;
-
-	background-image:URL("logo.png");
-	background-size:100% 70%;
-	}
 /* nav bar at 550*/
 ul {
     list-style-type: none;
