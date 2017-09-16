@@ -5,25 +5,40 @@
 <link rel="icon" href="logo1.fw.png" sizes="32x32">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
 
+
+<nav id="nav" role="navigation"> <a href="#nav" title="Show navigation">Show navigation</a> <a href="#" title="Hide navigation">Hide navigation</a>
 <ul>
  
   <li><a class="active2" ><img src="logo1.fw.png" color="white"></a></li>
   <li><a class="active" href="index.html">Home</a></li>
   <li><a href="Work.html">Works</a></li>
-  <li><a href="Contact.html">Contact</a></li>
+  
   <li><a href="About.html">About</a></li>
   
 </ul>
+</nav>
 
-<button class="fb_btn">+</button>
 <h4 class="home1">HELLO </h4>
 <h4 class="home2">I'M LEONARD</h4>
 <h4 class="home3">I'M A GRAPHICS DESIGNER , A WEB DEVELOPER AND A GAME DEVELOPER</h4>
 <h4 class="home4">"BE WHATS NEXT"</h4>
 
+  
+<script src="http://osvaldas.info/examples/main.js"></script>
+
+<script src="http://osvaldas.info/examples/drop-down-navigation-touch-friendly-and-responsive/doubletaptogo.js"></script> 
+  
+<script>
+    $( function()
+    {
+        $( '#nav li:has(ul)' ).doubleTapToGo();
+    });
+</script>
 
 
 
